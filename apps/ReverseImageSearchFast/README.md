@@ -2,10 +2,23 @@
 
 [A complete guide to this application can be found here](http://ml4a.github.io/guides/ReverseImageSearchFast/)
 
+Tested with 
+ - OSX 10.15.3 Catalina
+ - Xcode 11.3.1 Build version 11C504
+ - of_v0.11.0_osx_release
+
+Data
+ - Installed at `/Users/Dwaynekj/Projects/Personal/of_v0.11.0_osx_release/data/`
+ - Ran `sh setup.sh` from repo root and moved data to Openframeworks data folder mentioned above
+ - [feature vectors](https://drive.google.com/drive/folders/0B3WXSfqxKDkFRE05MXY1U3c0YVU)
+ - [MSCOCO DATA 2014](http://cocodataset.org/#download)
+
 This app requires:
  - [ofxCcv](https://github.com/kylemcdonald/ofxCcv)
+ - ofxGui
  - [ofxLearn](https://github.com/genekogan/ofxLearn)
  - [ofxKDTree](https://github.com/genekogan/ofxKDTree)
+ - [ofxScreenGrab](https://github.com/genekogan/ofxScreenGrab)
 
 Fast reverse image search on a live image, including webcam, video, or saved image. For same thing, but able to use a screengrab as an input, see [ReverseImageSearchLive](https://github.com/ml4a/ml4a-ofx/tree/master/apps/ReverseImageSearchLive).
 
